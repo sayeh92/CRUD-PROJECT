@@ -15,7 +15,7 @@ app.post('/api/products', (req,res) =>{
 
 mongoose
   .connect(
-    "mongodb+srv://sayehghaderi9:5HeR2bopNfNoZ4hl@crud.wft2eom.mongodb.net/Node-API?retryWrites=true&w=majority&appName=crud"
+  
   )
 
   .then(() => {
